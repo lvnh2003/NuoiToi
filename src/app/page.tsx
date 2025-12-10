@@ -113,8 +113,20 @@ export default function Home() {
             <button className="modal-close" onClick={handleCloseModal}>
               <CrossIcon />
             </button>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/qr.jpeg" alt="QR Code" className="qr-image" />
+            <div className="heart-anim">❤️</div>
+            <h3 style={{
+              fontSize: '2rem',
+              marginBottom: '0.5rem',
+              background: 'linear-gradient(to right, #fff, #ff00cc)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              fontWeight: 800
+            }}>
+              Cảm ơn bạn!
+            </h3>
+            <p style={{ fontSize: '1.1rem', color: '#e0e0e0', fontWeight: 500 }}>
+              Tấm lòng của bạn là động lực lớn nhất!
+            </p>
           </div>
         </div>
       )}
